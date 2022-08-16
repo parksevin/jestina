@@ -1,0 +1,893 @@
+//max-width 
+//min-width
+
+@media all and(max-width: 1140px) {
+    #wrap #main #main-wrap #section2 .container .banner-box .banner a .banner-text {
+        span { font-size: 1.7543859vw;}
+        h3 { font-size:2.6315789vw;}
+    }
+    #wrap #main #main-wrap #section2 .container .banner-box .banner.bn2 a .banner-text {
+        h3 { font-size: 3.0701754vw;}
+    }
+    #wrap #header .container .top .logo,#wrap #header .container .bottom #nav {margin-left: 10px;}
+    #wrap #header .container .bottom #aside ul li:last-child,#wrap #header .container .top .serch 
+    { margin-right: 10px;}
+
+
+}
+
+
+@media all and(max-width: 1024px) {
+  
+    #wrap #main #main-wrap #section3 .container .sec3gap .sec3top .sec3-box .big-banner .big-bn-box > a {
+        p { font-size: 2.246093vw; }
+        h3 { font-size: 4.394531vw;}
+    }
+    #wrap #main #main-wrap #section3 .container .sec3gap .sec3bottom .gap ul.small-banner-box li.small-banner a .small-bn-box {
+        p { font-size: 1.757812vw;}
+        h3 { font-size: 2.441406vw;}
+    }
+    #wrap #main #main-wrap #section4 .container .gap .top .content #sec4-nav .nav-gap > ul,
+    #wrap #main #main-wrap #section5 .container .gap .top .content #sec5-nav .nav-gap > ul {
+
+        margin-left: 10vw;
+    }
+
+    #wrap #header.show .container .bottom #nav { display: block;}
+
+}
+
+@media all and(max-width:960px) {
+
+    #wrap #header { height: 80px;}
+    #wrap #header .container .top { padding:0 0 5px 0;}
+    #wrap #header .container .top .logo { z-index: 3;}
+    #wrap #header .container .top .mobile-btn-box { display: block; z-index: 3;}
+    #wrap #header .container .top .top-menu { display: none;}
+
+    #wrap #header .container .top .mobile-serch-box { display: block; z-index: 1;}
+    #wrap #header .container .top .serch { display: none;}
+
+
+    #wrap #header.show .container .top {
+            display: block;
+            height: 60px;
+            padding: 0;
+            display: flex;
+        .mobile-btn-box { }
+        .mobile-serch-box { top: 12px;}
+
+    }
+    #wrap #header.show .container .bottom #nav {
+        display: none;
+    }
+
+    #wrap #header.show .container .bottom #aside {bottom: 23px; }
+    
+
+
+    #wrap #header .container .bottom {
+        #aside {
+            bottom:31px;
+        ul {
+            li {
+                &:nth-child(2) { display: none;}
+                &:nth-child(3) { display: none;}              
+            }
+        }
+        }
+    }
+
+    #wrap #header .nav-bg {
+        &.on { display: none;}
+    }
+
+
+    #wrap #header .container .bottom { 
+        #nav {
+            display: none;
+            align-items: flex-start;
+            margin: 0 auto;
+            height: 100vh;
+            width: 100%;
+            overflow-y: auto;
+           >ul {
+            display: block;
+            position: relative;
+            top:40px;
+            width: 100%;
+            height: 100vh;
+            background: #fff;
+            padding-top: 15px;
+                >li {
+                    height: auto;
+                    margin-right: 0;
+                    >a.main-btn {
+                        text-align: center;
+                        line-height: 38px;
+                        background: #fff;
+                        &:hover {
+                            border-top: 1px solid #ffb2b8;
+                            border-bottom: 1px solid #ffb2b8;
+                            transform: translateY(0);
+                        }
+                        &.on {
+                            color: #ffb2b8;
+                            border-top: 1px solid #ffb2b8;
+                            border-bottom: 0;
+                        }
+                        &.m-on { display: block;}
+                    }
+                    .sub {
+                        display: none;
+                        position: inherit;
+                        width: 100%;
+                        height: 100%;             
+                        .sub-gap {
+                            position: inherit;
+                            display: block;
+                            text-align: center;
+                            >ul.sub-menu {
+                                display: block;
+                                background-color: #ffb2b8;
+                                >li {
+                                    position: inherit;
+                                    border-bottom: 1px solid rgba(255,255,255,.4);
+                                    &:last-child { border-bottom: 0;}
+                                    >a {
+                                        height: 40px;
+                                        line-height: 40px;
+                                        &:hover {
+                                            border-bottom: 0;
+                                            color: rgba(255,255,255,.9);
+                                            }                                                   
+                                        }
+                                    &:first-child {
+                                        position: inherit;
+                                        >a {
+                                            font-size: 20px;
+                                            padding-bottom: 0;
+                                            height: 40px;
+                                            line-height: 40px;
+                                            &:hover {
+                                                border-bottom: 0;
+                                                color: rgba(255,255,255,.9);
+                                            } 
+                                        }
+                                    }
+                                    .sort-box {
+                                        display: none;
+                                        margin-top: 0;
+                                        >ul.sort {
+                                            width: 100%;
+                                            background-color: #ffd8d8;
+                                            margin-right: 0;
+                                            >li {
+                                                border-bottom: 1px solid rgba(255,255,255,.4);
+                                                >a {
+                                                    &:hover {
+                                                        color:#ffb2b8; 
+                                                        border-bottom:0;
+                                                    }
+                                                }
+                                            }
+                                            
+                                        }
+                                        &.on { display: block;}
+                                    }
+                                }
+                                
+                            }
+                            .sub-img {display: none;}
+                        }
+                        &.sub3 {
+                            .sub-gap {
+                                >ul {
+                                    >li { margin-right: 0;}
+                                }
+                            }
+                        }
+                        &.on { display: none;}
+                        &.m-on { display: block;}                
+                    }
+
+                }
+            }
+        }
+    }
+    
+    #wrap #main { top: 80px;}
+
+    #wrap #main #main-wrap #section6 {padding-bottom: 14vw;}
+    #wrap #footer {bottom: -80px;}
+
+}
+
+@media all and(max-width:940px) {
+
+
+
+    #wrap #main #main-wrap #section4 .container .gap .top .content .sec4-mobile-nav, 
+    #wrap #main #main-wrap #section5 .container .gap .top .content .sec5-mobile-nav 
+    {display: block;}
+    
+    
+
+    #wrap #main #main-wrap #section4 .container .gap .top .content #sec4-nav .nav-gap > ul > li > a, 
+    #wrap #main #main-wrap #section5 .container .gap .top .content #sec5-nav .nav-gap > ul > li > a 
+    {display: none;}
+
+    #wrap #main #main-wrap #section4 .container .gap .top .content #sec4-nav .nav-gap .plus-btn, 
+    #wrap #main #main-wrap #section5 .container .gap .top .content #sec5-nav .nav-gap .plus-btn     
+    {position: inherit;
+    text-align: center;
+    margin-top: 3%;}
+
+    #wrap #main #main-wrap #section4 .container .gap .top .content #sec4-nav .nav-gap > ul > li .sec4menu-view,  
+    #wrap #main #main-wrap #section5 .container .gap .top .content #sec5-nav .nav-gap > ul > li .sec5menu-view  
+    {margin-top: 4%;}  
+
+    #wrap #main #main-wrap #section4 .container .gap, 
+    #wrap #main #main-wrap #section5 .container .gap 
+    {margin-top: 9.5744%; }
+
+    #wrap #main #main-wrap #section4 .container .gap .top .content #sec4-nav .nav-gap .sec4slide-btn-box, 
+    #wrap #main #main-wrap #section5 .container .gap .top .content #sec5-nav .nav-gap .sec5slide-btn-box 
+    {bottom:50px;}
+
+}
+    
+@media all and(max-width:750px) {
+
+
+    //대배너,소배너 sec1,sec2
+
+    #wrap #main #main-wrap #section1 .container .slide-view .slide-wrap .slide .slide-box .slide-text {
+        h2 {font-size: 8vw; padding-bottom: 5vw;}
+        p {font-size: 3vw;}
+    }
+    #wrap #main #main-wrap #section1 .container .slide-view {
+        height: 400px;
+    }
+    
+    #wrap #main #main-wrap #section2 .container .banner-box {
+        display: block;
+        .banner {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+    #wrap #main #main-wrap #section2 .container .banner-box .banner a {
+        padding: 30px 0 30px 27px;
+    }
+    #wrap #main #main-wrap #section2 .container .banner-box .banner a .banner-text {
+        span { font-size: 2.6vw;}
+        h3 { font-size:4vw;}
+    }
+    #wrap #main #main-wrap #section2 .container .banner-box .banner.bn2 a .banner-text {
+        h3 { font-size: 4.6vw;}
+    }
+    #wrap #main #main-wrap #section2 .container .banner-box .banner.bn1 {
+        background-position: 50% 0;
+    }
+
+    //기획전 sec3
+
+    #wrap #main #main-wrap #section3 {
+        .container {
+            .sec3gap {
+                .sec3-title {
+                    h3 {
+                        font-size: 4vw;
+                    }
+                }
+                .sec3top {
+                    .sec3-box {
+                        display: block;
+                        .big-banner {
+                            width: 100%;
+                            margin-right: 0;
+                            margin-bottom: 2.6%;                              
+                            .big-bn-box {                        
+                                >a {
+                                    height:500px;
+                                    background: url(../img/sec3-bigBanner.jpg) no-repeat 50% 30%;
+                                    p { 
+                                        font-size: 3.0666vw;                
+                                    }
+                                    h3 {
+                                        font-size: 6vw;
+                                    }
+                                    span {
+                                        i {
+                                            font-size: 3.0666vw;
+                                        }
+                                    }
+                                }   
+                            }
+                        }
+                        .sec3-menu-view {
+                            width: 100%;
+                            height: 770px;
+                        }
+                    }
+                }
+                .sec3bottom {
+                    .gap {
+                        ul.small-banner-box {
+                            display: block;
+                            li.small-banner {
+                                width: 100%;
+                                height: 200px;
+                                margin-right: 0;
+                                &:nth-child(1) { a {
+                                    background: url(../img/sec3-smallBanner-1.jpg) no-repeat 100% 50%;                 
+                                    .small-bn-box { 
+                                        background-color: #ecfcfd;
+                                        span { i {
+                                            color:#252525;
+                                            border-bottom: 1px solid #252525;
+                                        }}
+                                    }
+                                }}
+                                &:nth-child(2) { a {
+                                    background: url(../img/sec3-smallBanner-2.jpg) no-repeat 0 50%;
+                                    .small-bn-box {
+                                        background-color: #e8e0dc; 
+                                        right: 0;
+                                        span { i {
+                                            color:#252525;
+                                            border-bottom: 1px solid #252525;
+                                        }}
+                                    }
+                                }}
+                                &:nth-child(3) { a {
+                                    background: url(../img/sec3-smallBanner-3.jpg) no-repeat 100% 50%;
+                                    .small-bn-box {
+                                        background-color: #faeff9; 
+                                    }
+                                }}
+                                a {                                                   
+                                    .small-bn-box {
+                                        background: #fff;
+                                        height: 100%;
+                                        width: 50%;
+                                        position: absolute;
+                                        p {
+                                            font-size: 2.4vw;       
+                                            margin-bottom: 2.6%;
+                                            margin-top: 15%;   
+                                        }
+                                        h3 {
+                                            font-size: 3.333vw;
+                                        }
+                                        span {
+                                            bottom: 20px;
+                                            i {
+                                                height: 3vh;
+                                                font-size: 2.4vw;            
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //sec4
+
+    #wrap #main #main-wrap #section4 {
+                .container {
+                    .gap {
+                        .top {
+                            .title {
+                                h3 {
+                                    font-size: 5.3333vw;
+                                }
+                            }
+                            .content {
+                                height: 560px;            
+                                #sec4-nav {
+                                    .nav-gap {
+                                        >ul {
+                                            >li {
+                                                >a {display: none;}                         
+                                                .sec4menu-view {
+                                                    >ul.sec4-menu-wrap {
+                                                        width: 900%;
+                                                        margin-left: -150%;
+                                                        >li.sec4-hover-menu {
+                                                        width: 50%;
+                                                        }                                                                                                          
+                                                    }
+                                                }
+                                                
+                                            }
+                                        }
+                                        .sec4slide-btn-box {
+                                            bottom: 40px;
+                                            text-align: center;
+                                            >ul.box-gap {
+                                                >li.sec4-prev-btn {
+                                                    width: 24px*0.5;
+                                                    height: 48px*0.5;
+                                                }
+                                                >li.sec4-next-btn {
+                                                    width: 24px*0.5;
+                                                    height: 48px*0.5;
+                                                }                                                      
+                                            }
+                                        }
+                                    }
+                                   
+                                }
+                            }
+                        }
+                    }
+                }
+    }
+            
+    //sec5
+
+    #wrap #main #main-wrap #section5 {
+        .container {
+            .gap {
+                .top {
+                    .title {
+                        h3 {
+                            font-size: 5.3333vw;
+                        }
+                    }
+                    .content {
+                        height: 560px;            
+                        #sec5-nav {
+                            .nav-gap {
+                                >ul {
+                                    >li {
+                                        >a {display: none;}                         
+                                        .sec5menu-view {
+                                            >ul.sec5-menu-wrap {
+                                                width: 900%;
+                                                margin-left: -150%;
+                                                >li.sec5-hover-menu {
+                                                width: 50%;
+                                                }                                                                                                          
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                                .sec4slide-btn-box {
+                                    bottom: 40px;
+                                    text-align: center;
+                                    >ul.box-gap {
+                                        >li.sec4-prev-btn {
+                                            width: 24px*0.5;
+                                            height: 48px*0.5;
+                                        }
+                                        >li.sec4-next-btn {
+                                            width: 24px*0.5;
+                                            height: 48px*0.5;
+                                        }                                                      
+                                    }
+                                }
+                            }
+                        }          
+                    }
+                }
+            }
+        }
+    }
+        
+
+    //sec6
+
+    #wrap #main #main-wrap #section6 {
+        .container {
+            .gap {
+                width: 100%;
+                margin-top: 9.5744%;
+                .title {
+                    h3 {
+                        font-size: 5.3333vw;
+                    }
+                }
+                .content {
+                    ul {
+                        flex-flow: row wrap;
+                        li.rotate-btn {
+                            width: 49%;
+                            height: 300px;
+                            margin-right: 0;
+                            &:nth-child(1) {
+                                margin-right: 2%;
+                                margin-bottom: 2%; 
+                            }
+                            &:nth-child(2) { 
+                                margin-bottom: 2%; 
+                            }
+                            &:nth-child(3) { 
+                                margin-right: 2%; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and(max-width:620px) {
+    #wrap #footer {
+            .container {
+                .gap {
+                    .content {
+                        .box {
+                            position: relative;
+                            .right {
+                                .right-menu-box2 {
+                                    >ul {
+                                        >li {
+                                            &:last-child {
+                                                margin-top: 7px;
+                                            }
+                                            >ul.f-manu {  
+                                                display: block;
+                                                width: 100%;                                    
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .left {
+                                position: absolute;
+                                left:0;
+                                top:17px;
+                            }
+                        }
+    
+                    }
+                }
+            }
+    }
+}
+
+@media all and(max-width:620px) {
+    #wrap #header .container .bottom {
+        #aside {
+            display: none;
+        }
+    }
+    #wrap #header .container .top .mobile-serch-box {
+        right: 10px;
+      }
+
+      #wrap #main #main-wrap #section3 .container .sec3gap .sec3-title h3{ font-size: 22px;}
+      #wrap #main #main-wrap #section4 .container .gap .top .title h3 {font-size: 28px;}
+      #wrap #main #main-wrap #section5 .container .gap .top .title h3 {font-size: 28px;}
+      #wrap #main #main-wrap #section6 .container .gap .title h3 {font-size: 28px;}
+}
+
+@media all and(max-width:400px) {
+    #wrap #main #main-wrap #section1 {
+        .container {
+            .slide-view {
+                .slide-wrap {
+                    .slide {
+                        &.slide2 { 
+                            background-position: 100% 50%;
+                            .slide-box {
+                                .slide-text { padding-left: 0;} 
+                            }
+                        }   
+                        .slide-box {
+                            .slide-text {
+                                h2 {
+                                    font-size: 10vw;
+                                }
+                                p {
+                                    font-size: 4.75vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .prev-btn {
+                top:87%;
+                width: 18px;
+                height: 35px;
+                z-index: 2;
+            }
+            .next-btn {
+                top:87%;
+                width: 18px;
+                height: 35px;
+                z-index: 2;
+            }
+        }
+    }
+    #wrap #main #main-wrap #section2 {
+        .container {
+            .banner-box {
+                .banner {
+                    a {
+                        .banner-text {
+                        span{
+                            font-size: 4vw;
+                        }
+                        h3{
+                            font-size: 5.5vw;
+                        }
+                        }
+                    }
+                    &.bn2 {
+                        a { 
+                            .banner-text {
+                                h3 {
+                                    font-size: 6.75vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }   
+
+
+    #wrap #main #main-wrap #section3 {
+            .container {
+                    .sec3gap {
+                        .sec3top {
+                            .sec3-box {
+                                position: relative;
+                                top: -300px;
+                                .big-banner {  
+                                    top: 300px;                         
+                                    .big-bn-box {                        
+                                        >a {
+                                            height:500px;
+                                            background: url(../img/sec3-bigBanner.jpg) no-repeat 50% 50%;
+                                            background-size: contain;
+                                            p { 
+                                                font-size: 4.3vw;                
+                                            }
+                                            h3 {
+                                                font-size: 10vw;
+                                            }
+                                            span {
+                                                i {
+                                                    font-size: 4.3vw;
+                                                    height: 30px; 
+                                                }
+                                            }
+                                        }   
+                                    }
+                                }
+                                .sec3-menu-view {
+                                    display: none;
+                                }
+                                .m-sec3-menu-view {
+                                    display: block;
+                                    .m-sec3-menu-box {
+                                        ul.m-sec3-menu {
+                                            li.m-sec3-hover-menu {
+                                               
+                                            }
+                                        }
+                                    }                                                                                                                           
+                                    .m-sec3slide-btn-box {
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                        .sec3bottom {
+                            .gap {
+                                ul.small-banner-box {
+                                    li.small-banner {
+                                        height: 280px;
+                                        a {
+                                            .small-bn-box {
+                                                width: 90%;
+                                                height: 150px;
+                                                position: relative;
+                                                width: 100%;
+                                                margin: 0 auto;
+                                                background-color: rgba(255,255,255,.7);
+                                                p {
+                                                    padding-top: 24px;
+                                                    font-size: 4vw;        
+                                                }
+                                                h3 {  
+                                                    font-size: 8.25vw;
+                                                }
+                                                span {
+                                                    bottom: 90px;
+                                                    i {
+                                                        height: 30px;
+                                                        font-size: 4vw;
+                                                    }
+                                                }
+                                            }
+                                            }   
+                                        &:nth-child(1) { a {
+                                            background: url(../img/sec3-smallBanner-1.jpg) no-repeat 50% 50%; 
+                                            .small-bn-box {
+                                                width: 90%;
+                                                background-color: rgba(255,255,255,.7);
+                                                >span {
+                                                    bottom: 20px;
+                                                }
+                                            }
+                                        }}
+                                        &:nth-child(2) { a {
+                                            background: url(../img/sec3-smallBanner-2.jpg) no-repeat 50% 70%;
+                                            .small-bn-box {
+                                                width: 90%;
+                                                background-color: rgba(255,255,255,.7);
+                                                >span {
+                                                    bottom: 20px;
+                                                }
+                                            }
+                                        }}
+                                        &:nth-child(3) { a {
+                                            background: url(../img/sec3-smallBanner-3.jpg) no-repeat 50% 50%;
+                                            .small-bn-box {
+                                                width: 90%;
+                                                background-color: rgba(255,255,255,.7);
+                                                >span {
+                                                    bottom: 20px;
+                                                }
+                                            }
+                                        }}                 
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+            }
+}
+
+@media all and(max-width:390px) {
+
+
+    #wrap #main #main-wrap #section4 {
+        .container {
+            .gap {
+                .top {
+                    .content {          
+                        #sec4-nav {
+                            .nav-gap {
+                                >ul {
+                                    >li {                     
+                                        .sec4menu-view {
+                                            >ul.sec4-menu-wrap {
+                                                >li.sec4-hover-menu {
+                                                    .manu-hover-box {
+                                                        .menu-hover { 
+                                                                bottom: -18px;      
+                                                        .gap {
+                                                                        .gap-box{
+                                                                            span {
+                                                                                a {
+                                                                                    width: 0;
+                                                                                    font-size:0;
+                                                                                } 
+                                                                                &:nth-child(1) {
+                                                                                    margin-right: 30px;
+                                                                                }
+                                                                                &:nth-child(2) {
+                                                                                    a {
+                                                                                        &::before { 
+                                                                                            top:-1px;
+                                                                                        }
+                                                                                    }
+                                                                                }                                   
+                                                                            }
+                                                                        }
+                                                                        
+                                                          }
+                                                        }
+                                                    }
+                                                }                                                                                                          
+                                            }
+                                        }
+                                        
+                                    }
+                                }                           
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #wrap #main #main-wrap #section5 {
+    .container {
+        .gap {
+            .top {
+                .content {          
+                    #sec5-nav {
+                        .nav-gap {
+                            >ul {
+                                >li {                     
+                                    .sec5menu-view {
+                                        >ul.sec5-menu-wrap {
+                                            >li.sec5-hover-menu {
+                                                .manu-hover-box {
+                                                    .menu-hover { 
+                                                            bottom: -18px;      
+                                                    .gap {
+                                                                    .gap-box{
+                                                                        span {
+                                                                            a {
+                                                                                width: 0;
+                                                                                font-size:0;
+                                                                            } 
+                                                                            &:nth-child(1) {
+                                                                                margin-right: 30px;
+                                                                            }
+                                                                            &:nth-child(2) {
+                                                                                a {
+                                                                                    &::before { 
+                                                                                        top:-1px;
+                                                                                    }
+                                                                                }
+                                                                            }                                   
+                                                                        }
+                                                                    }
+                                                                    
+                                                      }
+                                                    }
+                                                }
+                                            }                                                                                                          
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                        }
+                       
+                    }
+                }
+            }
+        }
+    }
+    }
+    #wrap #main #main-wrap #section6 {
+    .container {
+        .gap {
+            .content {
+                ul {
+                    width: 100%;
+                    display: block;
+                    li.rotate-btn {
+                        width: 100%;
+                        height: 270px;
+                        margin-right: 0;
+                        &:nth-child(4) { 
+                            margin-top: 2%; 
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    }
+
+
+}
+
+
+
